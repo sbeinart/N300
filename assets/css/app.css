@@ -471,7 +471,7 @@ html[xmlns] .clearfix {
 
 
 .type-2 .page {
-	padding-top: 75px;
+	padding-top: 66px;
 	top: 0;
 }
 
@@ -497,7 +497,7 @@ html[xmlns] .clearfix {
 }
 
 /* -----------------------------------------
-	Type 2
+	Type 3
 ----------------------------------------- */
 
 .type-3 header {
@@ -523,7 +523,7 @@ html[xmlns] .clearfix {
 }
 
 .type-3 .page {
-	padding-top: 75px;
+	padding-top: 66px;
 	top: 0;
 }
 
@@ -555,13 +555,9 @@ html[xmlns] .clearfix {
 }
 
 .type-4 .page {
-	-moz-transition: .5s;
-	-webkit-transition: .5s;
-	-o-transition: .5s;
-	-ms-transition: .5s;
-	transition: .5s;
 	left: 0;
 	position: relative;
+
 }
 
 .type-4 .nav.show + .page {
