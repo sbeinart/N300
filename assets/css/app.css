@@ -119,6 +119,10 @@ p {
 	line-height: 20px;
 }
 
+.type {
+	text-align: center;
+}
+
 /* -----------------------------------------
 	Buttons
 ----------------------------------------- */
@@ -200,11 +204,11 @@ p {
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-color: #006dcc;
 	background-color: #0044cc;
-	background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-	background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-	background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-	background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+	background-image: -moz-linear-gradient(top, rgb(0, 170, 255), #0044cc);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from rgb(0, 170, 255), to(#0044cc));
+	background-image: -webkit-linear-gradient(top, rgb(0, 170, 255), #0044cc);
+	background-image: -o-linear-gradient(top, rgb(0, 170, 255), #0044cc);
+	background-image: linear-gradient(to bottom, rgb(0, 170, 255), #0044cc);
 	background-repeat: repeat-x;
 	border-color: #0044cc #0044cc #002a80;
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -287,6 +291,7 @@ p {
 }
 
 .nav a .icon-chevron-right {
+	color: black;
 	position: absolute;
 	right: .5em;
 }
@@ -384,6 +389,7 @@ p {
 }
 
 .articles .icon-chevron-right {
+	color: black;
 	position: absolute;
 	right: 1em;
 	top: 40%;
