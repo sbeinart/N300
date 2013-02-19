@@ -262,6 +262,7 @@ p {
 .nav {
 	width: 100%;
 	display: none;
+	z-index: 250
 }
 
 
@@ -481,7 +482,7 @@ html[xmlns] .clearfix {
 
 .type-2 .nav {
 	display: block;
-	position: fixed;
+	position: absolute;
 	top: -330px;
 	left: 0;
 	-moz-transition: .5s;
