@@ -509,7 +509,7 @@ html[xmlns] .clearfix {
 	display: block;
 	position: fixed;
 	top: 51px;
-	left: -100%;
+	left: -100%
 	-moz-transition: .5s;
 	-webkit-transition: .5s;
 	-o-transition: .5s;
@@ -542,7 +542,7 @@ html[xmlns] .clearfix {
 	left: -70%;
 	display: block;
 	height: 100%;
-	background: rgb(232, 232, 232);
+	background:rgb(128, 138, 255);
 	-moz-transition: .5s;
 	-webkit-transition: .5s;
 	-o-transition: .5s;
