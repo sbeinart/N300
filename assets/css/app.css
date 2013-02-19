@@ -463,3 +463,108 @@ html[xmlns] .clearfix {
 * html .clearfix {
 	height: 1%;
 }
+
+/* -----------------------------------------
+	Type 2
+----------------------------------------- */
+
+
+.type-2 .page {
+	padding-top: 75px;
+	top: 0;
+}
+
+.type-2 header {
+	position: fixed;
+	width: 100%;
+}
+
+.type-2 .nav {
+	display: block;
+	position: fixed;
+	top: -330px;
+	left: 0;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	transition: .5s;
+}
+
+.type-2 .nav.show {
+	top: 51px;
+}
+
+/* -----------------------------------------
+	Type 2
+----------------------------------------- */
+
+.type-3 header {
+	position: fixed;
+	width: 100%;
+}
+
+.type-3 .nav {
+	display: block;
+	position: fixed;
+	top: 51px;
+	left: -100%;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	transition: .5s;
+}
+
+.type-3 .nav.show {
+	top: 51px;
+	left: 0;
+}
+
+.type-3 .page {
+	padding-top: 75px;
+	top: 0;
+}
+
+/* -----------------------------------------
+	Type 4
+----------------------------------------- */
+
+.type-4 .container {
+	overflow-x: hidden;
+}
+
+.type-4 .nav {
+	position: absolute;
+	height: 100%;
+	width: 70%;
+	left: -70%;
+	display: block;
+	height: 100%;
+	background: rgb(232, 232, 232);
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	transition: .5s;
+}
+
+.type-4 .nav.show {
+	left: 0;
+}
+
+.type-4 .page {
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	transition: .5s;
+	left: 0;
+	position: relative;
+}
+
+.type-4 .nav.show + .page {
+	left: 70%;
+}
+
+

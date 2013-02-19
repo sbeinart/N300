@@ -7,7 +7,7 @@
 		
 		console.log(id);
 		
-		if(target.css('display') != 'none') {
+		if(target.hasClass('show')) {
 			target.removeClass('show');
 		}
 		else {
@@ -28,6 +28,34 @@
 		}
 				
 		e.preventDefault();
+	});
+	
+	$('.type a').click(function() {
+		var $buttons = $('.type a');
+		var $t       = $(this);
+		var length   = $buttons.length;
+		var type     = $t.attr('href').replace('#', '');
+		
+		$buttons.removeClass('primary');
+		$t.addClass('primary');
+		
+		for(x = 2; x <= length; x++) {
+			$('body').removeClass('type-'+x);
+		}
+		
+		$('body').addClass(type);
+		
+		$('.toggle').removeClass('rotate');
+		$('.show').removeClass('show');
+		
+		if(type) {
+			$('.nav').hide();
+			
+			setTimeout(function() {
+				$('.nav').show();
+				$('.nav').attr('style', '');
+			}, 500);
+		}
 	});
 	
 }(jQuery, this));
