@@ -493,7 +493,7 @@ html[xmlns] .clearfix {
 }
 
 .type-2 .nav.show {
-	top: 51px;
+	top: 50px;
 }
 
 /* -----------------------------------------
@@ -508,7 +508,7 @@ html[xmlns] .clearfix {
 .type-3 .nav {
 	display: block;
 	position: fixed;
-	top: 51px;
+	top: -500px;
 	left: -100%
 	-moz-transition: .5s;
 	-webkit-transition: .5s;
@@ -518,7 +518,7 @@ html[xmlns] .clearfix {
 }
 
 .type-3 .nav.show {
-	top: 51px;
+	top: 50px;
 	left: 0;
 }
 
